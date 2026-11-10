@@ -1,0 +1,62 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color:lightslategrey;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    height: 400px;
+}
+
+.card button {
+    position: absolute;
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    top: 280px;
+    right: 220px;
+}
+
+.card button:hover {
+    background-color: lightcoral;
+}
+
+.info {
+    padding-top: 30%;
+    text-align: center;
+}
+
+.inputbar {
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.btn {
+    height: 45px;
+    width: 80px;
+    background-color: royalblue;
+    border-radius: 20px;
+    border: none;
+}
+.textstyle {
+    font-size: 30px;
+}
+
+body {
+    background-color: lightslategray;
+}
